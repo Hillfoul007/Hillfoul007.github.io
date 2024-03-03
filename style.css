@@ -1,0 +1,212 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background-color: skyblue;
+    padding: 1rem 0;
+    color: skyblue;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f72585;
+}
+
+/* Intro Section */
+.intro {
+    background-color: White;
+    color: black;
+    padding: 5rem 0;
+    margin-left: -10px;
+    
+    
+    
+    
+    box-shadow: 5 10 20px skyblue(24, 61, 61);
+    margin-top: 50px;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 50px;
+    background-image: url(introimg.jpg);
+    opacity: 0.9;
+
+}
+
+.intro h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+
+.intro h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+}
+
+.intro .button {
+    /* display: inline-block;
+    padding: 1.2rem 3rem;
+    background-color: black;
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-left: 100px; */
+    
+}
+
+.intro .button:hover {
+    background-color: #f72585;
+    color: #fff;
+}
+
+/* Profile Section */
+.profile {
+    background-color: #fff;
+    color: #000;
+    padding: 5rem;
+   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-top: 5rem;
+    border-radius: 100px;
+    border-color: #000;
+    
+}
+
+.profile h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #405de6;
+}
+
+.profile p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.profile .skills {
+    margin-top: 3rem;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+
+}
+
+.profile .skills h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #405de6;
+}
+
+.profile .skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile .skills li {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    
+    
+}
+
+/* Footer */
+/* footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #6930c3;
+    color: black;
+} */
+
+footer p {
+    margin: 0;
+    font-size: 1.6rem;
+    margin-left: 20px;
+    color: #000;
+    
+} 
+
+footer span {
+    margin: 10px;
+    margin-right: 10px;
+    
+    color: beige;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: skyblue; /* Background color of the footer */
+    color: yellow; /* Text color of the footer */
+    margin-bottom: -50px;
+}
+
+
+
+    
+
+
+footer .nav {
+    margin-left: auto;
+}
+
+footer .nav .nav-item {
+    margin-left: 1rem;
+    
+}
+
+@media (max-width: 768px) {
+    footer .col-md-4 {
+        text-align: center !important;
+    }
+
+    footer .nav {
+        justify-content: center !important;
+    }
+}
+
+.col-md-4 mb-3 mb-md-0 text-center text-md-start{
+    margin-left: 20px;
+}
+
